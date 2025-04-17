@@ -29,5 +29,5 @@ plt.figure(figsize=(8, 5))
 sns.boxplot(x='gender', y='math score', data=df)
 plt.title("Math Score by Gender")
 plt.savefig("boxplot_gender.png")
-plt.show()
+plt.show()  
        
