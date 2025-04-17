@@ -24,7 +24,7 @@ plt.xlabel("Math Score")
 plt.ylabel("Count")
 plt.savefig("hist_math_score.png")
 plt.show()
- 
+   
 plt.figure(figsize=(8, 5))
 sns.boxplot(x='gender', y='math score', data=df)
 plt.title("Math Score by Gender")
