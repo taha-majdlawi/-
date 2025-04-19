@@ -16,7 +16,7 @@ df['gender'] = df['gender'].replace({'femle': 'female'})
 df.dropna(inplace=True) 
   
 df.to_csv("Cleaned_StudentsPerformance.csv", index=False)
-
+ 
 plt.figure(figsize=(8, 5))
 sns.histplot(df['math score'], kde=True, color='skyblue')
 plt.title("Distribution of Math Scores")
