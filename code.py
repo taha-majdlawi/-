@@ -9,7 +9,7 @@ print( df.head())
        
      
 print(df.isnull().sum())
- .
+ 
 df['gender'] = df['gender'].str.lower()
 df['gender'] = df['gender'].replace({'femle': 'female'})
 
