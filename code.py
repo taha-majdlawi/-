@@ -13,7 +13,7 @@ print(df.isnull().sum())
 df['gender'] = df['gender'].str.lower()
 df['gender'] = df['gender'].replace({'femle': 'female'})
 
-df.dropna(inplace=True)
+df.dropna(inplace=True) 
   
 df.to_csv("Cleaned_StudentsPerformance.csv", index=False)
 
