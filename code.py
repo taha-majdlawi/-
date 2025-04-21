@@ -6,7 +6,7 @@ import  seaborn as sns
          
 df = pd.read_csv("StudentsPerformance.csv")
 print( df.head())    
-          
+           
      
 print(df.isnull().sum()) 
  
