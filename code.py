@@ -8,7 +8,7 @@ df = pd.read_csv("StudentsPerformance.csv")
 print( df.head())    
         
      
-print(df.isnull().sum())
+print(df.isnull().sum()) 
  
 df['gender'] = df['gender'].str.lower()
 df['gender'] = df['gender'].replace({'femle': 'female'})
