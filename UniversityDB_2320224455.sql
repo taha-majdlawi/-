@@ -5,9 +5,9 @@
    ===================================================== */
 
 -- ============ المطلوب الثاني: DDL ============
-CREATE DATABASE UniversityDB_StudentID;
+CREATE DATABASE UniversityDB_2320224455;
 GO
-USE UniversityDB_StudentID;
+USE UniversityDB_2320224455;
 GO
 
 CREATE TABLE Departments (
